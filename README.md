@@ -5,6 +5,30 @@ model weights. Nothing to install to watch them.
 
 ---
 
+## 0. Six faceless formats · 1920×1080 · 64 s  ⭐ start here
+
+A single reel that demonstrates six faceless formats I can generate for you on
+this box. Every number on screen is measured from this repo.
+
+**▶ [Play the format reel with sound](media/faceless-format-reel.mp4)** (23 MB)
+
+### Data story — animated bars + counters
+
+![Data story](media/gif/reel-data.gif)
+
+### Comparison — split panels
+
+![Comparison](media/gif/reel-compare.gif)
+
+### Countdown — numbered list
+
+![Countdown](media/gif/reel-countdown.gif)
+
+The other three chapters in the reel: **quote card** (kinetic type),
+**timeline** (moving marker), **menu** (call to action).
+
+---
+
 ## 1. Hand-drawn explainer · 1920×1080 · 47 s
 
 Faceless doodle explainer on cream paper. The pen tracks every stroke, then colour
@@ -38,12 +62,12 @@ Kinetic typography cut for Shorts / Reels.
 
 ## How they're made
 
-| | Hand-drawn explainer | Vertical teaser |
-|---|---|---|
-| Engine | [srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) (MIT, OpenCV + PyAV) | [MoviePy](https://github.com/Zulko/moviepy) (MIT) |
-| Artwork | hand-coded in `video/whiteboard/doodle.py` | typography only |
-| Render time | ~3 min | ~85 s |
-| Source | [`video/whiteboard/`](video/whiteboard) | [`video/generate_teaser.py`](video/generate_teaser.py) |
+| | Format reel | Hand-drawn explainer | Vertical teaser |
+|---|---|---|---|
+| Engine | MoviePy | [srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) (MIT) | MoviePy |
+| Artwork | drawn in code (`video/showcase/make_reel.py`) | hand-coded in `doodle.py` | typography only |
+| Render time | ~4.5 min | ~3 min | ~85 s |
+| Source | [`video/showcase/`](video/showcase) | [`video/whiteboard/`](video/whiteboard) | [`video/generate_teaser.py`](video/generate_teaser.py) |
 
 `video/README.md` has the full survey of free video-gen repos and why the GPU-based
 ones (Wan, LTX, Hunyuan, ComfyUI, OpenMontage) cannot run in this environment.
@@ -52,6 +76,8 @@ ones (Wan, LTX, Hunyuan, ComfyUI, OpenMontage) cannot run in this environment.
 
 ```bash
 pip install -r video/whiteboard/requirements.txt
+
+python video/showcase/make_reel.py         # the 64s format reel
 python video/whiteboard/make_scenes.py     # redraw the frames
 python video/whiteboard/render.py          # ink them in + score
 ```
