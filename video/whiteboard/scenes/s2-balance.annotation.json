@@ -1,0 +1,171 @@
+{
+  "sceneId": "s2-balance",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "storyBasis": "No checking the balance before buying.",
+  "sceneDurationMs": 11040,
+  "elements": [
+    {
+      "id": "e1",
+      "label": "phone",
+      "sequence": 1,
+      "narrativeRole": "手机外壳",
+      "subtitle": "No checking your account first.",
+      "type": "structure",
+      "region": {
+        "x": 400,
+        "y": 180,
+        "width": 400,
+        "height": 650
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 140,
+        "durationMs": 2400,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          600,
+          190
+        ],
+        "end": [
+          600,
+          820
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e2",
+      "label": "statement",
+      "sequence": 2,
+      "narrativeRole": "账户余额",
+      "subtitle": "No checking your account first.",
+      "type": "structure",
+      "region": {
+        "x": 470,
+        "y": 280,
+        "width": 260,
+        "height": 420
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 2680,
+        "durationMs": 2000,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          600,
+          290
+        ],
+        "end": [
+          600,
+          690
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e3",
+      "label": "cross",
+      "sequence": 3,
+      "narrativeRole": "红叉否定",
+      "subtitle": "No checking your account first.",
+      "type": "structure",
+      "region": {
+        "x": 430,
+        "y": 340,
+        "width": 340,
+        "height": 340
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 4820,
+        "durationMs": 1400,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          600,
+          350
+        ],
+        "end": [
+          600,
+          670
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e4",
+      "label": "line-1",
+      "sequence": 4,
+      "narrativeRole": "字幕一",
+      "subtitle": "No checking",
+      "type": "structure",
+      "region": {
+        "x": 980,
+        "y": 430,
+        "width": 720,
+        "height": 120
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 6360,
+        "durationMs": 1700,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1340,
+          440
+        ],
+        "end": [
+          1340,
+          540
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e5",
+      "label": "line-2",
+      "sequence": 5,
+      "narrativeRole": "字幕二",
+      "subtitle": "your account first.",
+      "type": "structure",
+      "region": {
+        "x": 980,
+        "y": 570,
+        "width": 800,
+        "height": 120
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 8200,
+        "durationMs": 1800,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1380,
+          580
+        ],
+        "end": [
+          1380,
+          680
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}
