@@ -1,0 +1,171 @@
+{
+  "sceneId": "s3-overheard",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "storyBasis": "A stranger notices someone's work and is surprised it is real.",
+  "sceneDurationMs": 12040,
+  "elements": [
+    {
+      "id": "e1",
+      "label": "listener",
+      "sequence": 1,
+      "narrativeRole": "旁听者",
+      "subtitle": "“Wait…",
+      "type": "structure",
+      "region": {
+        "x": 280,
+        "y": 300,
+        "width": 300,
+        "height": 620
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 140,
+        "durationMs": 2300,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          430,
+          310
+        ],
+        "end": [
+          430,
+          910
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e2",
+      "label": "frame",
+      "sequence": 2,
+      "narrativeRole": "挂在墙上的作品",
+      "subtitle": "he actually",
+      "type": "structure",
+      "region": {
+        "x": 780,
+        "y": 340,
+        "width": 370,
+        "height": 380
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 2580,
+        "durationMs": 2400,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          965,
+          350
+        ],
+        "end": [
+          965,
+          710
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e3",
+      "label": "speaker",
+      "sequence": 3,
+      "narrativeRole": "说话的人",
+      "subtitle": "made this?”",
+      "type": "structure",
+      "region": {
+        "x": 1250,
+        "y": 300,
+        "width": 320,
+        "height": 620
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 5120,
+        "durationMs": 2200,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1410,
+          310
+        ],
+        "end": [
+          1410,
+          910
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e4",
+      "label": "bubble",
+      "sequence": 4,
+      "narrativeRole": "感叹气泡",
+      "subtitle": "“Wait… he actually made this?”",
+      "type": "structure",
+      "region": {
+        "x": 1350,
+        "y": 180,
+        "width": 440,
+        "height": 320
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 7460,
+        "durationMs": 1500,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1570,
+          190
+        ],
+        "end": [
+          1570,
+          490
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e5",
+      "label": "caption",
+      "sequence": 5,
+      "narrativeRole": "字幕",
+      "subtitle": "“Wait… he actually made this?”",
+      "type": "structure",
+      "region": {
+        "x": 470,
+        "y": 860,
+        "width": 980,
+        "height": 210
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 9100,
+        "durationMs": 1900,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          960,
+          870
+        ],
+        "end": [
+          960,
+          1060
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

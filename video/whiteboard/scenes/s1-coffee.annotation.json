@@ -1,0 +1,139 @@
+{
+  "sceneId": "s1-coffee",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "storyBasis": "Tuesday morning: buying coffee without hesitating.",
+  "sceneDurationMs": 9700,
+  "elements": [
+    {
+      "id": "e1",
+      "label": "figure",
+      "sequence": 1,
+      "narrativeRole": "主角出场",
+      "subtitle": "You buy coffee.",
+      "type": "structure",
+      "region": {
+        "x": 320,
+        "y": 250,
+        "width": 300,
+        "height": 660
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 140,
+        "durationMs": 2500,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          470,
+          260
+        ],
+        "end": [
+          470,
+          900
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e2",
+      "label": "cup",
+      "sequence": 2,
+      "narrativeRole": "咖啡杯",
+      "subtitle": "You buy coffee.",
+      "type": "structure",
+      "region": {
+        "x": 510,
+        "y": 470,
+        "width": 150,
+        "height": 210
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 2780,
+        "durationMs": 2100,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          585,
+          480
+        ],
+        "end": [
+          585,
+          670
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e3",
+      "label": "line-1",
+      "sequence": 3,
+      "narrativeRole": "字幕一",
+      "subtitle": "You buy coffee.",
+      "type": "structure",
+      "region": {
+        "x": 930,
+        "y": 430,
+        "width": 720,
+        "height": 120
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 5020,
+        "durationMs": 1800,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1290,
+          440
+        ],
+        "end": [
+          1290,
+          540
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e4",
+      "label": "line-2",
+      "sequence": 4,
+      "narrativeRole": "字幕二",
+      "subtitle": "No hesitation.",
+      "type": "structure",
+      "region": {
+        "x": 930,
+        "y": 580,
+        "width": 640,
+        "height": 140
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 6960,
+        "durationMs": 1700,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1250,
+          590
+        ],
+        "end": [
+          1250,
+          710
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

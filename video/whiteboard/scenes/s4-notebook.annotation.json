@@ -1,0 +1,107 @@
+{
+  "sceneId": "s4-notebook",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "storyBasis": "Finding the original notebook: the idea survived.",
+  "sceneDurationMs": 7360,
+  "elements": [
+    {
+      "id": "e1",
+      "label": "notebook",
+      "sequence": 1,
+      "narrativeRole": "旧笔记本",
+      "subtitle": "You didn't quit.",
+      "type": "structure",
+      "region": {
+        "x": 430,
+        "y": 330,
+        "width": 660,
+        "height": 440
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 140,
+        "durationMs": 2600,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          760,
+          340
+        ],
+        "end": [
+          760,
+          760
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e2",
+      "label": "spark",
+      "sequence": 2,
+      "narrativeRole": "灵光",
+      "subtitle": "You didn't quit.",
+      "type": "structure",
+      "region": {
+        "x": 1100,
+        "y": 340,
+        "width": 190,
+        "height": 250
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 2880,
+        "durationMs": 1400,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1195,
+          350
+        ],
+        "end": [
+          1195,
+          580
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e3",
+      "label": "line",
+      "sequence": 3,
+      "narrativeRole": "字幕",
+      "subtitle": "You didn't quit.",
+      "type": "structure",
+      "region": {
+        "x": 1120,
+        "y": 600,
+        "width": 720,
+        "height": 160
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 4420,
+        "durationMs": 1900,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1480,
+          610
+        ],
+        "end": [
+          1480,
+          750
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "sceneId": "s5-endcard",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "storyBasis": "Brand end card.",
+  "sceneDurationMs": 7360,
+  "elements": [
+    {
+      "id": "e1",
+      "label": "mark",
+      "sequence": 1,
+      "narrativeRole": "字母组合",
+      "subtitle": "ALTER EGO",
+      "type": "structure",
+      "region": {
+        "x": 800,
+        "y": 210,
+        "width": 320,
+        "height": 300
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 140,
+        "durationMs": 1900,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          960,
+          220
+        ],
+        "end": [
+          960,
+          500
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e2",
+      "label": "wordmark",
+      "sequence": 2,
+      "narrativeRole": "品牌字",
+      "subtitle": "ALTER EGO",
+      "type": "structure",
+      "region": {
+        "x": 600,
+        "y": 570,
+        "width": 720,
+        "height": 190
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 2180,
+        "durationMs": 2300,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          960,
+          580
+        ],
+        "end": [
+          960,
+          750
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "e3",
+      "label": "tagline",
+      "sequence": 3,
+      "narrativeRole": "标语",
+      "subtitle": "your future self, checking in.",
+      "type": "structure",
+      "region": {
+        "x": 660,
+        "y": 790,
+        "width": 620,
+        "height": 110
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 4620,
+        "durationMs": 1700,
+        "maskPaddingPx": 24,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          970,
+          800
+        ],
+        "end": [
+          970,
+          890
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}
